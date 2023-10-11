@@ -7,9 +7,9 @@
 
 - 🔭 I’m currently working on **Library management webapp**
 
-- 🌱 I’m currently learning **Data analytics, Data Visualisation, Machine Learning, Generative AI, React**
+- 🌱 I’m currently learning **Data Analytics, Data Visualisation, Machine Learning, Generative AI, React.js, Express.js**
 
-- 👯 I’m looking to collaborate on **Data analytics projects**
+- 👯 I’m looking to collaborate on **Machine Learning projects**
 
 - 💬 Ask me about **Data analysis, Machine Learning, Generative AI, Deep Learning, React**
 
