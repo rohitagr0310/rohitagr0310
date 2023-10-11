@@ -2,12 +2,9 @@
 <!--<img src="https://user-images.githubusercontent.com/48784001/203785020-2b4826c1-7ddb-4de8-b65b-ebf6e04c5290.jpeg">-->
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://user-images.githubusercontent.com/74038190/242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b.gif" max-width: 100%;>
  
-  𝐇ola,&lt;I'm Rohit Agarwal/&gt;!
+<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 𝐇ola,&lt;I'm Rohit Agarwal/&gt;! <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
 </h1>
-<p align='center' style='margin: 14px 11px 9px;'>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=54A6FF&center=true&vCenter=true&multiline=true&width=710&height=70&lines=Welcome+to+my+GitHub+Profile;I+am+a+full+stack+developer+from+India" alt="Welcome to My GitHub Profile. I am a Fullstack Developer from India." />
-</p>
 
 <img align="right"  height="271" width="400" alt="GIF" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ5cW84eXEwdXd6MTBlbXlhcjR2bnNsZXk1cmg5YTgyZ2xoZDI1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.gif"/>
 
@@ -39,20 +36,14 @@
 
 #
 
-<img align="left" height="300px" width="300px" alt="𝙶𝙸𝙵" src="https://camo.githubusercontent.com/3b7c592ede97b6138ffd4b1cc1541c2f3b11fd39/687474703a2f2f33312e6d656469612e74756d626c722e636f6d2f31376665613932306666333665663466356238373764353231366137616164392f74756d626c725f6d6f39786a65387a5a34317163626975666f315f313238302e676966"/>
+<img align="left" height="300px" width="300px" alt="𝙶𝙸𝙵" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif"/>
 <br/>
 
-*𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂 𝙰𝙽𝙳 𝚃𝙾𝙾𝙻𝚂:*  
+**Tech Stack**
 
-<br/>
-<br/>
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) 
 
-<code><img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"></code>
-<code><img height="40" width="40" src="https://www.naveedashfaq.me/img/c++.png"></code>
-<code><img height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"></code>
-<code><img height="35" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></code>
-<code><img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"></code>
-<code><img height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></code>
 
 #
 
@@ -68,8 +59,6 @@
 
  <h1>Github Stats ⚡:</h1>
   
-<a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=rohitagr0310&theme=highcontrast&count_private=true&hide_border=true&line_height=20)</a>
-  <a href="#">![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohitagr0310&layout=compact&theme=highcontrast&count_private=true&hide_border=true)</a>
 <p align="center"><img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=rohitagr0310&theme=highcontrast&count_private=true&hide_border=true&line_height=20" alt="GitHub Stats"/>   &nbsp;&nbsp;   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohitagr0310&layout=compact&theme=highcontrast&count_private=true&hide_border=true" alt="Top Languages"/></p>
 <p align="center"><img align="center" height="180em" src="https://streak-stats.demolab.com/?user=rohitagr0310&theme=highcontrast&hide_border=true"alt="GitHub Streak"/></p>
 <p align = "center"><a href="https://github.com/ritiksharma-code/github-readme-activity-graph"><img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=rohitagr0310&bg_color=000000&color=FFFF00&line=f78800&point=FFFFFF&hide_border=true" /></a></p>
