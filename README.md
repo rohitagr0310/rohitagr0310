@@ -72,7 +72,7 @@
 <br />
 <h1>Github Stats ⚡:</h1>
   
-![](https://github-profile-trophy.vercel.app/?username=rohitagr0310&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=rohitagr0310&theme=radical&no-frame=true&no-bg=false&margin-w=4)
 <p align="center"><img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=rohitagr0310&theme=highcontrast&count_private=true&hide_border=true&line_height=20" alt="GitHub Stats"/>   &nbsp;&nbsp;   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohitagr0310&layout=compact&theme=highcontrast&count_private=true&hide_border=true" alt="Top Languages"/></p>
 <p align="center"><img align="center" height="180em" src="https://streak-stats.demolab.com/?user=rohitagr0310&theme=highcontrast&hide_border=true"alt="GitHub Streak"/></p>
 <p align = "center"><a href="https://github.com/ritiksharma-code/github-readme-activity-graph"><img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=rohitagr0310&bg_color=000000&color=FFFF00&line=f78800&point=FFFFFF&hide_border=true" /></a></p>
