@@ -2,7 +2,7 @@
 <!--<img src="https://user-images.githubusercontent.com/48784001/203785020-2b4826c1-7ddb-4de8-b65b-ebf6e04c5290.jpeg">-->
 <!--<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://user-images.githubusercontent.com/74038190/242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b.gif" max-width: 100%;>-->
  
-[![@rphi's Holopin board](https://holopin.io/api/user/board?user=rohitagr0310)](https://holopin.io/@rohitagr0310)
+[![An image of @rohitagr0310's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rohitagr0310)](https://holopin.io/@rohitagr0310)
  
 <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 𝐇ola,&lt;I'm Rohit Agarwal/&gt;! <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
