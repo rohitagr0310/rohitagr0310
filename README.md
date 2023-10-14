@@ -71,7 +71,8 @@
 #
 <br />
 <h1>Github Stats ⚡:</h1>
-  
+
+[![@rphi's Holopin board](https://holopin.io/api/user/board?user=rohitagr0310)](https://holopin.io/@rohitagr0310)
 ![](https://github-profile-trophy.vercel.app/?username=rohitagr0310&theme=radical&no-frame=true&no-bg=false&margin-w=4)
 <p align="center"><img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=rohitagr0310&theme=highcontrast&count_private=true&hide_border=true&line_height=20" alt="GitHub Stats"/>   &nbsp;&nbsp;   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohitagr0310&layout=compact&theme=highcontrast&count_private=true&hide_border=true" alt="Top Languages"/></p>
 <p align="center"><img align="center" height="180em" src="https://streak-stats.demolab.com/?user=rohitagr0310&theme=highcontrast&hide_border=true"alt="GitHub Streak"/></p>
