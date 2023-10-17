@@ -20,7 +20,7 @@
     <a href="mailto:rohitagr2610@gmail.com" target="_blank" rel="noreferrer">
         <img align="center" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="mailto:ritiksharma0405@gmail.com" height="45" width="45" style="background: #ffffff; border-radius: 5px; border: 1px solid #000000; margin: 0 2px; padding: 2px;" />
     </a>
-    <a href="https://www.linkedin.com/in/rohit-agarwal-27285824a/" target="_blank" rel="noreferrer">
+    <a href="https://www.linkedin.com/in/rohitagarwal2610/" target="_blank" rel="noreferrer">
         <img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="https://www.linkedin.com/in/ritiksharma-code/" height="45" width="45" style="background: #ffffff; border-radius: 5px; border: 1px solid #000000; margin: 0 2px; padding: 2px;" />
     </a>
     <a href="https://www.instagram.com/_rohitagar2610_/" target="_blank" rel="noreferrer">
