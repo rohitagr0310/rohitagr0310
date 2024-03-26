@@ -73,7 +73,8 @@
 #
 <h1>My Learning Progress</h1>
 
-[![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/646c77f5cb6301e67f891250?variant=dark)](https://roadmap.sh)
+
+<a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/646c77f5cb6301e67f891250?variant=dark&roadmaps=computer-science%2Ccpp%2Cbackend%2Cdevops" alt="roadmap.sh"/></a>
 
 #
 <br />
