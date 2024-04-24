@@ -1,6 +1,4 @@
 <h1 align="center">
-<!--<img src="https://user-images.githubusercontent.com/48784001/203785020-2b4826c1-7ddb-4de8-b65b-ebf6e04c5290.jpeg">-->
-<!--<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://user-images.githubusercontent.com/74038190/242390524-0c7eb6ed-663b-4ce4-bfbd-18239a38ba1b.gif" max-width: 100%;>-->
  
 [![An image of @rohitagr0310's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rohitagr0310)](https://holopin.io/@rohitagr0310)
  
@@ -8,11 +6,16 @@
 
 </h1>
 
+## 💫 About Me:
+<div>
 <img align="right"  height="271" width="400" alt="GIF" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ5cW84eXEwdXd6MTBlbXlhcjR2bnNsZXk1cmg5YTgyZ2xoZDI1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.gif"/>
+🔭 I'm currently working on my Open Source Contribution. <br />
+👯 I’m currently learning **Data Analytics, Data Visualisation, Machine Learning, Generative AI, React.js, Express.js**<br />
+🌱 I’m currently learning C++, Java, React.js, Electron <br />
+💬 Ask me about logic building and learning <br />
+⚡ Fun fact "'𝙱𝚎𝚜𝚝 𝙿𝚊𝚛𝚝 𝙾𝚏 𝚃𝚑𝚎 𝙹𝚘𝚞𝚛𝚗𝚎𝚢 𝙸𝚜 : 𝙸𝚝 𝙴𝚗𝚍𝚜"
 
-# 💫 About Me:
-🔭 I'm currently working on my Open Source Contribution. <br />👯 I’m currently learning **Data Analytics, Data Visualisation, Machine Learning, Generative AI, React.js, Express.js**<br />🌱 I’m currently learning C++, Java, React.js, Electron <br />💬 Ask me about logic building and learning <br />⚡ Fun fact "'𝙱𝚎𝚜𝚝 𝙿𝚊𝚛𝚝 𝙾𝚏 𝚃𝚑𝚎 𝙹𝚘𝚞𝚛𝚗𝚎𝚢 𝙸𝚜 : 𝙸𝚝 𝙴𝚗𝚍𝚜"
-
+</div>
 
 ## 🌐 Let's Connect and have a Chat! :
 
