@@ -1,6 +1,6 @@
 <h1 align="center">
  
-[![An image of @rohitagr0310's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rohitagr0310)](https://holopin.io/@rohitagr0310)
+![GIF](https://github.com/rohitagr0310/rohitagr0310/blob/main/Pixel%20Art%20Background%20Gif.gif)
  
 <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 𝐇ola,&lt;I'm Rohit Agarwal/&gt;! <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
@@ -69,7 +69,6 @@
 ![VSC](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 <!--<code><img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg"></code>-->
-
 
 <br/>
 
