@@ -9,14 +9,14 @@
 ## 💫 About Me:
 <div>
 <img align="right"  height="271" width="400" alt="GIF" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ5cW84eXEwdXd6MTBlbXlhcjR2bnNsZXk1cmg5YTgyZ2xoZDI1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.gif"/>
-🔭 I'm currently working on my Open Source Contribution. <br />
-👯 I’m currently learning **Data Analytics, Data Visualisation, Machine Learning, Generative AI, React.js, Express.js**<br />
-🌱 I’m currently learning C++, Java, React.js, Electron <br />
+
 💬 Ask me about logic building and learning <br />
 ⚡ Fun fact "'𝙱𝚎𝚜𝚝 𝙿𝚊𝚛𝚝 𝙾𝚏 𝚃𝚑𝚎 𝙹𝚘𝚞𝚛𝚗𝚎𝚢 𝙸𝚜 : 𝙸𝚝 𝙴𝚗𝚍𝚜"
 
 </div>
 
+<div>
+ 
 ## 🌐 Let's Connect and have a Chat! :
 
 <p align="left" style='margin: 16px 4px 8px;'>
@@ -39,8 +39,7 @@
         <img align="center" src="https://media.geeksforgeeks.org/wp-content/uploads/20201213110552/logo.png" height="45" width="45" style="background: #ffffff; border-radius: 5px; border: 1px solid #000000; margin: 0 2px; padding: 2px;" />
     </a>
 </p>
-
-#
+</div>
 
 <img align="left" height="300px" width="300px" alt="𝙶𝙸𝙵" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif"/>
 <br/>
@@ -80,11 +79,6 @@
 
 #
 <br />
-
-## GSSOC(24) Badges 🪶
-<div style='display:flex; align-items:center; gap: 10px;' align='center'>
-<img src="https://raw.githubusercontent.com/girlscript/gssoc-website-new/main/public/badges/postman.png" width="100px" height="100px" />
-</div>
 
 <h1>Github Stats ⚡:</h1>
 
