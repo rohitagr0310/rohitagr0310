@@ -61,24 +61,11 @@
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 
-
-
-#
-
 ![VSC](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 <!--<code><img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg"></code>-->
 
 <br/>
-
-#
-<h1>My Learning Progress</h1>
-
-
-<a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/646c77f5cb6301e67f891250?variant=dark&roadmaps=computer-science%2Ccpp%2Cbackend%2Cdevops" alt="roadmap.sh"/></a>
-
-#
-<br />
 
 <h1>Github Stats ⚡:</h1>
 
