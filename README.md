@@ -128,7 +128,3 @@
 <p align="center">
   <img height="180em" src="https://streak-stats.demolab.com/?user=rohitagr0310&theme=highcontrast&hide_border=true" alt="GitHub Streak"/>
 </p>
-
----
-
-This update makes your README more engaging, informative, and personal. 🚀🔥 Let me know if you want any tweaks!
