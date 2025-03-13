@@ -22,7 +22,7 @@ const HomePage = () => {
     name: "",
     number: "",
     email: "",
-    education: "bachelor",
+    education: "default",
     country: "default"
   });
 
