@@ -80,12 +80,12 @@ const HomePage = () => {
               <h2 className="text-xl font-semibold text-center text-[#FFB606] mb-4">
                 Enter Your Details
               </h2>
-              <button
+              {/* <button
                 onClick={() => setShowPopup(false)}
                 className="text-black hover:text-gray-900 text-2xl mb-4"
               >
                 &times;
-              </button>
+              </button> */}
             </div>
             <form onSubmit={handleSubmit} className="space-y-3">
               <input
