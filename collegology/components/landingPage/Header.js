@@ -92,8 +92,12 @@ const Header = () => {
         <hr className="border-b border-gray-300" />
         <div className="flex mt-8 mb-8 items-center w-full px-6 md:px-10">
           <div className="relative w-32 h-8">
-            <h1 className="text-4xl text-yellow-500 font-bold flex items-center">
-              <span className="uppercase font-sans-serif ">Collegology</span>
+            <h1 className="flex items-center justify-center h-full">
+              <img
+                src="/images/logo.webp"  // Replace with your actual logo path
+                alt="Collegology Logo"
+                className="w-56 h-auto"
+              />
             </h1>
           </div>
           <div
