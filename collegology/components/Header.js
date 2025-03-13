@@ -1,11 +1,11 @@
 "use client";
 
-import { Menu } from "lucide-react";
-import { useState } from "react";
 import axios from "axios";
-import API from "../config/api";
-import { useRouter } from "next/navigation";
+import { Menu } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import API from "../config/api";
 
 export default function Header({ toggleSidebar }) {
   const [loading, setLoading] = useState(false);
@@ -38,7 +38,11 @@ export default function Header({ toggleSidebar }) {
         </button>
 
         <Link href="/">
-          <h1 className="text-2xl font-bold text-[#FFB606]">Collegology</h1>
+          <img
+            src="/images/logo.webp"  // Replace with your actual logo path
+            alt="Collegology Logo"
+            className="w-32 h-auto"
+          />
         </Link>
 
         {/* Logout Button */}
