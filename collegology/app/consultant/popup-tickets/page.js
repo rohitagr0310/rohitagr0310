@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Mail, Phone, User } from "lucide-react";
+import { Mail, Phone, User, Globe } from "lucide-react";
 import axios from "axios";
 import API from "../../../config/api";
 
@@ -78,6 +78,16 @@ const ConsultantTickets = () => {
                     </h3>
                     <p className="mt-2 text-sm text-gray-900">
                       {ticket.education}
+                    </p>
+                  </div>
+
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h3 className="text-sm font-medium text-gray-500">
+                      Country
+                    </h3>
+                    <p className="mt-2 text-sm text-gray-900">
+                      <Globe className="h-4 w-4 inline-block mr-2 text-gray-400" />
+                      {ticket.country || "N/A"}
                     </p>
                   </div>
 
