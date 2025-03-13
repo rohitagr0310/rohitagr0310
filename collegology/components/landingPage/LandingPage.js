@@ -23,7 +23,7 @@ const HomePage = () => {
     number: "",
     email: "",
     education: "bachelor",
-    country: "default",
+    country: "default"
   });
 
   const studyAbroadRef = useRef(null);
@@ -40,7 +40,7 @@ const HomePage = () => {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(userData),
+          body: JSON.stringify(userData)
         }
       );
       const data = await response.json();
@@ -121,6 +121,9 @@ const HomePage = () => {
                 onChange={handleChange}
                 className="w-full p-2 border rounded text-black"
               >
+                <option value="default" disabled>
+                  Select Degree
+                </option>
                 <option value="bachelor">Bachelor</option>
                 <option value="master">Master</option>
               </select>
@@ -132,7 +135,7 @@ const HomePage = () => {
                 className="w-full p-2 border rounded text-black"
               >
                 <option value="default" disabled>
-                  My Select Countries
+                  Select Country
                 </option>
                 <option value="Bulgaria">Bulgaria</option>
                 <option value="Croatia">Croatia</option>
