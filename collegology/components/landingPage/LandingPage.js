@@ -20,6 +20,8 @@ const HomePage = () => {
   const studyAbroadRef = useRef(null);
 
   const [showPopup, setShowPopup] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false); // New state to track form submission
+  const [formError, setFormError] = useState(""); // Track form errors
   const [userData, setUserData] = useState({
     name: "",
     number: "",
@@ -35,12 +37,23 @@ const HomePage = () => {
     }
   }, []);
 
+  // Effect to handle scrolling AFTER form submission
+  useEffect(() => {
+    if (formSubmitted) {
+      studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
+      setFormSubmitted(false); // Reset state to avoid re-triggering
+    }
+  }, [formSubmitted]);
+
   const handleChange = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
+    setFormError(""); // Clear error when the user types
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setFormError(""); // Reset previous errors
+
     try {
       const response = await fetch(
         `${API.API_BASE_URL}/api/popup-tickets/create-lead`,
@@ -51,17 +64,23 @@ const HomePage = () => {
         }
       );
       const data = await response.json();
+
       if (response.ok) {
         localStorage.setItem("userSubmitted", "true");
         setShowPopup(false);
-        setTimeout(() => {
-          studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
-        }, 300);
+        setFormSubmitted(true); // Trigger scrolling
       } else {
-        console.error("Error creating lead:", data.message);
+        if (data?.error?.code === 11000) {
+          setFormError("This email is already registered. Try another one.");
+        } else {
+          setFormError("Something went wrong. Please try again later.");
+        }
       }
     } catch (error) {
       console.error("Error submitting form:", error);
+      setFormError(
+        "Network error. Please check your connection and try again."
+      );
     }
   };
 
@@ -90,6 +109,14 @@ const HomePage = () => {
                 Enter Your Details
               </h2>
             </div>
+
+            {/* Error Message */}
+            {formError && (
+              <div className="bg-red-100 text-red-700 p-2 mb-3 rounded border border-red-500 text-center">
+                {formError}
+              </div>
+            )}
+
             <form onSubmit={handleSubmit} className="space-y-3">
               <input
                 type="text"
