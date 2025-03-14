@@ -15,7 +15,7 @@ export default function Header({ toggleSidebar }) {
     try {
       setLoading(true);
       await axios.get(API.API_ENDPOINTS.LOGOUT, {
-        withCredentials: true,
+        withCredentials: true
       }); // Ensure the correct API endpoint
       localStorage.removeItem("role");
       localStorage.removeItem("user");
@@ -39,7 +39,7 @@ export default function Header({ toggleSidebar }) {
 
         <Link href="/">
           <img
-            src="/images/logo.webp"  // Replace with your actual logo path
+            src="/images/logo.webp"
             alt="Collegology Logo"
             className="w-32 h-auto"
           />

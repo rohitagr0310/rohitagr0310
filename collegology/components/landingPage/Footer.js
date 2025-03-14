@@ -5,12 +5,14 @@ import { FaArrowUp, FaEnvelope, FaPhone } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#2c2c2c] text-[#6e6f70] py-10">
-      <div className="container mx-auto px-6 lg:px-16 grid grid-cols-1 md:grid-cols-4 gap-8 ">
+      <div className="container mx-auto px-6 lg:px-16 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo */}
-        <div>
-          <h2 className="text-2xl text-[#ffffff] font-bold text-yellow-500 flex items-center mt-12 ">
-            <span className="ml-2 uppercase font-sans-serif">Collegology</span>
-          </h2>
+        <div className="flex items-center">
+          <img
+            src="/images/collegologyy-logo.png" // Update the path as per your project structure
+            alt="Collegology Logo"
+            className="h-48"
+          />
         </div>
 
         {/* Contact Details */}

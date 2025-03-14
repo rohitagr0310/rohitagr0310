@@ -94,7 +94,7 @@ const Header = () => {
           <div className="relative w-32 h-8">
             <h1 className="flex items-center justify-center h-full">
               <img
-                src="/images/logo.webp"  // Replace with your actual logo path
+                src="/images/collegologyy-logo.png"
                 alt="Collegology Logo"
                 className="w-56 h-auto"
               />
@@ -121,8 +121,9 @@ const Header = () => {
           </div>
         </div>
         <div
-          className={`fixed top-0 right-0 w-64 h-full bg-[#FFB606] bg-opacity-90 z-50 transform ${isOpen ? "translate-x-0" : "translate-x-full"
-            } transition-transform duration-300 ease-in-out`}
+          className={`fixed top-0 right-0 w-64 h-full bg-[#FFB606] bg-opacity-90 z-50 transform ${
+            isOpen ? "translate-x-0" : "translate-x-full"
+          } transition-transform duration-300 ease-in-out`}
         >
           <button
             className="absolute top-4 right-6 text-3xl text-black"

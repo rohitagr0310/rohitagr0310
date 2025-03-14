@@ -1,6 +1,6 @@
 "use client";
 import API from "@/config/api";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import About from "./About";
 import AdmissionServices from "./AdmissionServices";
 import ContactUs from "./Contact";
@@ -17,7 +17,9 @@ import UniversitySection from "./UniversitySlider";
 import { WelcomeSection } from "./WelcomeSection";
 
 const HomePage = () => {
-  const [showPopup, setShowPopup] = useState(true);
+  const studyAbroadRef = useRef(null);
+
+  const [showPopup, setShowPopup] = useState(false);
   const [userData, setUserData] = useState({
     name: "",
     number: "",
@@ -26,7 +28,12 @@ const HomePage = () => {
     country: "default"
   });
 
-  const studyAbroadRef = useRef(null);
+  useEffect(() => {
+    const userSubmitted = localStorage.getItem("userSubmitted");
+    if (!userSubmitted) {
+      setShowPopup(true);
+    }
+  }, []);
 
   const handleChange = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
@@ -47,7 +54,9 @@ const HomePage = () => {
       if (response.ok) {
         localStorage.setItem("userSubmitted", "true");
         setShowPopup(false);
-        studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
+        setTimeout(() => {
+          studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
+        }, 300);
       } else {
         console.error("Error creating lead:", data.message);
       }
@@ -80,12 +89,6 @@ const HomePage = () => {
               <h2 className="text-xl font-semibold text-center text-[#FFB606] mb-4">
                 Enter Your Details
               </h2>
-              {/* <button
-                onClick={() => setShowPopup(false)}
-                className="text-black hover:text-gray-900 text-2xl mb-4"
-              >
-                &times;
-              </button> */}
             </div>
             <form onSubmit={handleSubmit} className="space-y-3">
               <input
