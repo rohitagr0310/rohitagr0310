@@ -160,6 +160,7 @@ const HomePage = () => {
                 <option value="default" disabled>
                   Select Country
                 </option>
+                <option value="India">India</option>
                 <option value="Bulgaria">Bulgaria</option>
                 <option value="Croatia">Croatia</option>
                 <option value="Denmark">Denmark</option>
