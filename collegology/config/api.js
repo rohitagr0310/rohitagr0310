@@ -1,5 +1,6 @@
-const API_BASE_URL = "https://collegology-backend.onrender.com";
-//"http://localhost:5000";
+const API_BASE_URL =
+  //"https://collegology-backend.onrender.com";
+  "http://localhost:5000";
 
 const API_ENDPOINTS = {
   LOGIN: `${API_BASE_URL}/api/auth/login`,
