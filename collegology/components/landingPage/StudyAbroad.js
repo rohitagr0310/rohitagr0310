@@ -24,7 +24,7 @@ const StudyAbroad = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    Achieve Your Global Education Dreams!
+                    Study Abroad!
                 </motion.h2>
 
                 <motion.p

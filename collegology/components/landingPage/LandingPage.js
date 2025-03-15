@@ -20,7 +20,6 @@ const HomePage = () => {
   const studyAbroadRef = useRef(null);
 
   const [showPopup, setShowPopup] = useState(false);
-  const [formSubmitted, setFormSubmitted] = useState(false); // New state to track form submission
   const [formError, setFormError] = useState(""); // Track form errors
   const [userData, setUserData] = useState({
     name: "",
@@ -36,14 +35,6 @@ const HomePage = () => {
       setShowPopup(true);
     }
   }, []);
-
-  // Effect to handle scrolling AFTER form submission
-  useEffect(() => {
-    if (formSubmitted) {
-      studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
-      setFormSubmitted(false); // Reset state to avoid re-triggering
-    }
-  }, [formSubmitted]);
 
   const handleChange = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
@@ -68,7 +59,9 @@ const HomePage = () => {
       if (response.ok) {
         localStorage.setItem("userSubmitted", "true");
         setShowPopup(false);
-        setFormSubmitted(true); // Trigger scrolling
+        setTimeout(() => {
+          studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
+        }, 300); // Ensure smooth scrolling after popup closes
       } else {
         if (data?.error?.code === 11000) {
           setFormError("This email is already registered. Try another one.");
