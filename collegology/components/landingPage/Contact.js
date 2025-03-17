@@ -38,7 +38,7 @@ const Contact = () => {
                 <FaPhoneAlt className="w-6 h-6 text-[#FFB606] mr-3" />
                 <div>
                   <p className="font-medium text-gray-600 mr-40px">
-                    +91 XXXXXXXXXX
+                    +91 9981185014
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                 <FaEnvelope className="w-6 h-6 text-[#FFB606] mr-3" />
                 <div>
                   <p className="font-medium text-gray-600 mr-40px">
-                    support@collegology.com
+                    Collegologyteam@gmail.com
                   </p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                 <FaMapMarkerAlt className="w-6 h-6 text-[#FFB606] mr-3" />
                 <div>
                   <p className="font-medium text-gray-600 mr-40px">
-                    [Your Office Location]
+                    Vijay Nagar Square , Indore
                   </p>
                 </div>
               </div>

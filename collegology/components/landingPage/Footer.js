@@ -1,6 +1,6 @@
 // Footer.jsx
 
-import { FaArrowUp, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,19 +22,24 @@ const Footer = () => {
           </h3>
           <div className="mt-4 space-y-2 font-serif">
             <a
-              href="tel:+91XXXXXXXXXX"
+              href="tel:+919981185014"
               className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500"
             >
-              <FaPhone className="text-yellow-500" /> +91 XXXXXXXXXX
+              <FaPhone className="text-yellow-500" /> +91 9981185014
             </a>
             <a
-              href="mailto:support@collegology.com"
+              href="mailto:Collegologyteam@gmail.com"
               className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500"
             >
-              <FaEnvelope className="text-yellow-500" /> support@collegology.com
+              <FaEnvelope className="text-yellow-500" /> Collegologyteam@gmail.com
             </a>
+            <div className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500">
+              <FaMapMarkerAlt className="text-yellow-500" />
+              <span>Vijay Nagar Square , Indore</span>
+            </div>
           </div>
         </div>
+
 
         {/* Company */}
         <div>
@@ -94,13 +99,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Scroll to Top Button with Line */}
-      <div className="relative mt-10 font-serif">
-        <div className="border-t border-gray-700 w-full mx-auto"></div>
-        <div className="absolute left-1/2 transform -translate-x-1/2 -top-3 bg-yellow-500 p-3 rounded-full cursor-pointer">
-          <FaArrowUp className="text-black" />
-        </div>
-      </div>
+
     </footer>
   );
 };
