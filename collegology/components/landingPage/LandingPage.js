@@ -93,10 +93,13 @@ const HomePage = () => {
 
   // Function to scroll to the top (Header)
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0, // Scrolls to the very top
-      behavior: "smooth",
-    });
+    // window.scrollTo({
+    //   top: 0, // Scrolls to the very top
+    //   behavior: "smooth",
+    // });
+    setTimeout(() => {
+      headerRef.current?.scrollIntoView({ behavior: "smooth" });
+    }, 300);
   };
 
   return (
@@ -196,7 +199,6 @@ const HomePage = () => {
                 <option value="default" disabled>
                   Select Country
                 </option>
-                <option value="India">India</option>
                 <option value="Bulgaria">Bulgaria</option>
                 <option value="Croatia">Croatia</option>
                 <option value="Denmark">Denmark</option>
