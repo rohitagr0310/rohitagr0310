@@ -2,10 +2,11 @@
 import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 
-const Header = () => {
+
+const Header = forwardRef((prop, ref) => {
   useEffect(() => {
     const storedRole = localStorage.getItem("role");
     setRole(storedRole);
@@ -43,7 +44,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#284855] text-13px font-roboto">
+    <div className="bg-[#284855] text-13px font-roboto" ref={ref}>
       <div className="container h-[180px] mx-auto px-4 py-2">
         <div className="bg-[#284855] text-white">
           <div className="container mx-auto px-4 py-2">
@@ -186,6 +187,7 @@ const Header = () => {
       </div>
     </div>
   );
-};
+}
+);
 
 export default Header;

@@ -11,7 +11,7 @@ const testimonials = [
     image: "/images/outstanding-img-1-1.webp",
   },
   {
-    name: "Simran Kaur",
+    name: "Vivek Kumar",
     city: "Delhi",
     degree: "Delhi University",
     testimonial:
