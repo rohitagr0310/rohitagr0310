@@ -1,6 +1,7 @@
 "use client";
 import API from "@/config/api";
 import { useEffect, useRef, useState } from "react";
+import { FaArrowUp } from "react-icons/fa"; // Importing arrow icon
 import About from "./About";
 import AdmissionServices from "./AdmissionServices";
 import ContactUs from "./Contact";
@@ -18,6 +19,7 @@ import { WelcomeSection } from "./WelcomeSection";
 
 const HomePage = () => {
   const studyAbroadRef = useRef(null);
+  const headerRef = useRef(null); // Reference for Header
 
   const [showPopup, setShowPopup] = useState(false);
   const [formError, setFormError] = useState(""); // Track form errors
@@ -37,13 +39,27 @@ const HomePage = () => {
   }, []);
 
   const handleChange = (e) => {
-    setUserData({ ...userData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+
+    if (name === "number") {
+      // Allow only numbers and enforce exactly 10 digits
+      if (!/^\d*$/.test(value)) return; // Prevent non-numeric input
+      if (value.length > 10) return; // Restrict to max 10 digits
+    }
+
+    setUserData({ ...userData, [name]: value });
     setFormError(""); // Clear error when the user types
   };
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setFormError(""); // Reset previous errors
+
+    if (userData.number.length !== 10) {
+      setFormError("Mobile number must be exactly 10 digits.");
+      return;
+    }
 
     try {
       const response = await fetch(
@@ -51,7 +67,7 @@ const HomePage = () => {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(userData)
+          body: JSON.stringify(userData),
         }
       );
       const data = await response.json();
@@ -61,7 +77,7 @@ const HomePage = () => {
         setShowPopup(false);
         setTimeout(() => {
           studyAbroadRef.current?.scrollIntoView({ behavior: "smooth" });
-        }, 300); // Ensure smooth scrolling after popup closes
+        }, 300);
       } else {
         if (data?.error?.code === 11000) {
           setFormError("This email is already registered. Try another one.");
@@ -71,15 +87,21 @@ const HomePage = () => {
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      setFormError(
-        "Network error. Please check your connection and try again."
-      );
+      setFormError("Network error. Please check your connection and try again.");
     }
+  };
+
+  // Function to scroll to the top (Header)
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0, // Scrolls to the very top
+      behavior: "smooth",
+    });
   };
 
   return (
     <div className="min-h-screen bg-[#FFFDFA] font-serif">
-      <Header />
+      <Header ref={headerRef} /> {/* Reference added to Header */}
       <HeroSection />
       <WelcomeSection />
       <About />
@@ -92,6 +114,18 @@ const HomePage = () => {
       <FAQ />
       <ContactUs />
       <Footer />
+
+      {/* Scroll to Top Button with Line */}
+      <div className="relative  font-serif bg-[#2c2c2c] py-4">
+        <div className="border-t border-gray-700 w-full mx-auto"></div>
+        <div
+          className="absolute left-1/2 transform -translate-x-1/2 -top-3 bg-yellow-500 p-3 rounded-full cursor-pointer"
+          onClick={scrollToTop} // Attach the click event
+        >
+          <FaArrowUp className="text-black" />
+        </div>
+      </div>
+
 
       {/* Mandatory Popup Form */}
       {showPopup && (
@@ -128,6 +162,8 @@ const HomePage = () => {
                 onChange={handleChange}
                 required
                 className="w-full p-2 border rounded text-black"
+                minLength="10" // Ensures at least 10 characters must be entered
+                maxLength="10" // Ensures no more than 10 characters can be entered
               />
               <input
                 type="email"

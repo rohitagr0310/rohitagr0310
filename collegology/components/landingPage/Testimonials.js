@@ -19,7 +19,7 @@ const testimonials = [
     image: "/images/outstanding-img-2-1.webp",
   },
   {
-    name: "Ananya Sharma",
+    name: "Aman Sharma",
     city: "Bangalore",
     degree: "Career Counseling",
     testimonial:

@@ -1,9 +1,9 @@
 "use client";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Header = () => {
   useEffect(() => {
@@ -51,24 +51,24 @@ const Header = () => {
               <div className="flex space-x-4 text-[20px]">
                 <a href="tel:8003888090" className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span className="hidden sm:inline">+91 XXXXXXXXXX</span>
+                  <span className="hidden sm:inline">+91 9981185014</span>
                 </a>
-                <a
+                {/* <a
                   href="https://www.google.com/maps?q=58+Howard+Street+%232+San+Francisco"
                   className="flex items-center"
                 >
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="hidden sm:inline">
-                    [Your Office Location]
+                    Vijay Nagar Square , Indore
                   </span>
-                </a>
+                </a> */}
                 <a
                   href="mailto:contact@eduma.com"
                   className="flex items-center"
                 >
                   <Mail className="w-4 h-4 mr-2" />
                   <span className="hidden sm:inline">
-                    support@collegology.com
+                    Collegologyteam@gmail.com
                   </span>
                 </a>
               </div>
@@ -121,9 +121,8 @@ const Header = () => {
           </div>
         </div>
         <div
-          className={`fixed top-0 right-0 w-64 h-full bg-[#FFB606] bg-opacity-90 z-50 transform ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform duration-300 ease-in-out`}
+          className={`fixed top-0 right-0 w-64 h-full bg-[#FFB606] bg-opacity-90 z-50 transform ${isOpen ? "translate-x-0" : "translate-x-full"
+            } transition-transform duration-300 ease-in-out`}
         >
           <button
             className="absolute top-4 right-6 text-3xl text-black"
@@ -169,18 +168,18 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex gap-6 space-x-4">
-              <a href="#" className="text-black text-2xl hover:text-[#284855]">
+              {/* <a href="#" className="text-black text-2xl hover:text-[#284855]">
                 <FaFacebook />
               </a>
               <a href="#" className="text-black text-2xl hover:text-[#284855]">
                 <FaTwitter />
-              </a>
-              <a href="#" className="text-black text-2xl hover:text-[#284855]">
+              </a> */}
+              <a href="https://www.instagram.com/collegologyy?igsh=bGZhZm1lYnZmc2R2" className="text-black text-2xl hover:text-[#284855]">
                 <FaInstagram />
               </a>
-              <a href="#" className="text-black text-2xl hover:text-[#284855]">
+              {/* <a href="#" className="text-black text-2xl hover:text-[#284855]">
                 <FaLinkedin />
-              </a>
+              </a> */}
             </div>
           </div>
         </nav>
