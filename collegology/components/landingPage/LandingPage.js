@@ -132,7 +132,7 @@ const HomePage = () => {
 
       {/* Mandatory Popup Form */}
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 px-4">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 px-4 z-10">
           <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
             <div className="flex justify-between">
               <h2 className="text-xl font-semibold text-center text-[#FFB606] mb-4">
