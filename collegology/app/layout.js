@@ -18,8 +18,8 @@ export const metadata = {
     "A platform for college students to connect with Consultants To get help in their College admissions",
   icons: {
     icon: "/images/logo.png", // For light mode
-    shortcut: "/images/collegologyy-logo.png",
-    apple: "/images/collegologyy-logo.png" // Apple touch icon (optional)
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png" // Apple touch icon (optional)
   }
 };
 
