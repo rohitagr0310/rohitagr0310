@@ -17,9 +17,9 @@ export const metadata = {
   description:
     "A platform for college students to connect with Consultants To get help in their College admissions",
   icons: {
-    icon: "/images/logo.png", // For light mode
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png" // Apple touch icon (optional)
+    icon: "/images/logo.webp", // For light mode
+    shortcut: "/images/logo.webp",
+    apple: "/images/logo.webp" // Apple touch icon (optional)
   }
 };
 
