@@ -17,7 +17,7 @@ export const metadata = {
   description:
     "A platform for college students to connect with Consultants To get help in their College admissions",
   icons: {
-    icon: "/images/collegologyy-logo.png", // For light mode
+    icon: "/images/logo.png", // For light mode
     shortcut: "/images/collegologyy-logo.png",
     apple: "/images/collegologyy-logo.png" // Apple touch icon (optional)
   }
