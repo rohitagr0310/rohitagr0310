@@ -1,6 +1,6 @@
 // Footer.jsx
 
-import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaHeadset, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
               href="mailto:support@meterio.in"
               className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500"
             >
-              <FaEnvelope className="text-yellow-500" /> support@meterio.in
+              <FaHeadset className="text-yellow-500" /> support@meterio.in
             </a>
             <div className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500">
               <FaMapMarkerAlt className="text-yellow-500" />
@@ -89,6 +89,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="mt-10 border-t border-gray-700 text-center pt-6 text-sm font-serif">
         <p>
+          A product by Meterio Edutech Pvt Ltd <br />
           Join Collegology Today! Your dream college is just a step away. Let’s
           make your admission journey smooth and stress-free!
         </p>
