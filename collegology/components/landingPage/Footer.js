@@ -28,10 +28,10 @@ const Footer = () => {
               <FaPhone className="text-yellow-500" /> +91 9981185014
             </a>
             <a
-              href="mailto:Collegologyteam@gmail.com"
+              href="mailto:support@meterio.in"
               className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500"
             >
-              <FaEnvelope className="text-yellow-500" /> Collegologyteam@gmail.com
+              <FaEnvelope className="text-yellow-500" /> support@meterio.in
             </a>
             <div className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500">
               <FaMapMarkerAlt className="text-yellow-500" />
