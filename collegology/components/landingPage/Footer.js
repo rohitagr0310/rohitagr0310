@@ -1,6 +1,6 @@
 // Footer.jsx
 
-import { FaHeadset, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
               href="mailto:support@meterio.in"
               className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500"
             >
-              <FaHeadset className="text-yellow-500" /> support@meterio.in
+              <FaEnvelope className="text-yellow-500" /> support@meterio.in
             </a>
             <div className="flex items-center gap-2 text-[#6e6f70] hover:text-yellow-500">
               <FaMapMarkerAlt className="text-yellow-500" />

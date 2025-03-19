@@ -47,7 +47,7 @@ const Contact = () => {
                 <FaEnvelope className="w-6 h-6 text-[#FFB606] mr-3" />
                 <div>
                   <p className="font-medium text-gray-600 mr-40px">
-                    Collegologyteam@gmail.com
+                    support@meterio.in
                   </p>
                 </div>
               </div>

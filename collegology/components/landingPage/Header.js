@@ -69,7 +69,7 @@ const Header = forwardRef((prop, ref) => {
                 >
                   <Mail className="w-4 h-4 mr-2" />
                   <span className="hidden sm:inline">
-                    Collegologyteam@gmail.com
+                    support@meterio.in
                   </span>
                 </a>
               </div>
