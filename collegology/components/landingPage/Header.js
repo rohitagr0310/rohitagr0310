@@ -64,7 +64,7 @@ const Header = forwardRef((prop, ref) => {
                   </span>
                 </a> */}
                 <a
-                  href="mailto:contact@eduma.com"
+                  href="mailto:support@meterio.in"
                   className="flex items-center"
                 >
                   <Mail className="w-4 h-4 mr-2" />
