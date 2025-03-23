@@ -4,6 +4,12 @@ import { useEffect, useState } from "react";
 const UniversitySection = () => {
   const universities = [
     {
+      name: "STUDENT SPONSORSHIP PROGRAM",
+      description:
+        "For every 10 students 1 will receive full scholarship for their fees from collegology.",
+      imageUrl: "/images/sponsorship.webp",
+    },
+    {
       name: "IITs, NITs & IIITs",
       description: "Premier engineering institutes.",
       imageUrl: "/images/IIT.webp",
@@ -37,15 +43,14 @@ const UniversitySection = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-slide every 3 seconds
+  // Slow auto-slide (every 5 seconds)
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % universities.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [universities.length]);
 
-  // Handle dot click
   const handleDotClick = (index) => {
     setCurrentIndex(index);
   };
@@ -54,7 +59,7 @@ const UniversitySection = () => {
     <section className="relative min-h-[600px] flex items-center justify-center py-10 md:py-16 bg-gray-50">
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center transition-all duration-500 before:absolute before:inset-0 before:bg-black before:opacity-50"
+        className="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out before:absolute before:inset-0 before:bg-black before:opacity-50"
         style={{
           backgroundImage: `url(${universities[currentIndex].imageUrl})`,
         }}
@@ -64,7 +69,7 @@ const UniversitySection = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 3.15 }}
           className="text-center mb-8"
         >
           <h2 className="text-3xl md:text-3xl font-bold drop-shadow-lg transition-all duration-200 hover:text-yellow-500 text-white">
@@ -79,10 +84,10 @@ const UniversitySection = () => {
         <div className="relative flex justify-center">
           <motion.div
             key={currentIndex}
-            className="relative w-full max-w-md bg-transparent text-center shadow-lg p-6 transition-opacity duration-500"
-            initial={{ opacity: 0, scale: 0.9 }}
+            className="relative w-full max-w-md bg-transparent text-center shadow-lg p-6 transition-opacity duration-700"
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 3.5, ease: "easeInOut" }}
           >
             <h3 className="font-bold text-white text-lg drop-shadow-lg hover:text-yellow-500">
               {universities[currentIndex].name}
