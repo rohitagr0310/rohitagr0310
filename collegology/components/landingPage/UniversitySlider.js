@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { motion, useInView } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+
 
 const UniversitySection = () => {
   const universities = [
@@ -42,22 +43,32 @@ const UniversitySection = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { once: true }); // `once` ensures it only runs once
 
-  // Slow auto-slide (every 5 seconds)
+
+
   useEffect(() => {
-    const interval = setInterval(() => {
+    if (!isInView) return;
+
+    const duration = currentIndex === 0 ? 7000 : 5000;
+
+    const timeout = setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % universities.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [universities.length]);
+    }, duration);
+
+    return () => clearTimeout(timeout);
+  }, [currentIndex, universities.length, isInView]);
 
   const handleDotClick = (index) => {
     setCurrentIndex(index);
   };
 
   return (
-    <section className="relative min-h-[600px] flex items-center justify-center py-10 md:py-16 bg-gray-50">
-      {/* Background Image with Overlay */}
+    <section
+      ref={sectionRef}
+      className="relative min-h-[600px] flex items-center justify-center py-10 md:py-16 bg-gray-50"
+    >      {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out before:absolute before:inset-0 before:bg-black before:opacity-50"
         style={{
@@ -70,7 +81,7 @@ const UniversitySection = () => {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 5.15 }}
+            transition={isInView ? { duration: 5.15 } : { duration: 0 }}
             className="text-center mb-8"
           >
             <h2 className="text-3xl md:text-3xl font-bold drop-shadow-lg transition-all duration-200 hover:text-yellow-500 text-white">
@@ -92,7 +103,7 @@ const UniversitySection = () => {
               className="relative w-full max-w-4xl bg-transparent text-center shadow-lg p-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: "easeOut" }}
+              transition={isInView ? { duration: 0.6, ease: "easeOut" } : { duration: 0 }}
             >
               <h1 className="font-bold text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl drop-shadow-lg hover:text-yellow-500">
                 {universities[0].name}
