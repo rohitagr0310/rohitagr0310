@@ -69,7 +69,7 @@ const UniversitySection = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 3.15 }}
+          transition={{ duration: 5.15 }}
           className="text-center mb-8"
         >
           <h2 className="text-3xl md:text-3xl font-bold drop-shadow-lg transition-all duration-200 hover:text-yellow-500 text-white">
@@ -87,7 +87,7 @@ const UniversitySection = () => {
             className="relative w-full max-w-md bg-transparent text-center shadow-lg p-6 transition-opacity duration-700"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 3.5, ease: "easeInOut" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
           >
             <h3 className="font-bold text-white text-lg drop-shadow-lg hover:text-yellow-500">
               {universities[currentIndex].name}
