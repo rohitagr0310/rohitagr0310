@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://54.174.254.0:5000";
+const API_BASE_URL = "https://api.rohit-agarwal.me";
 //"http://localhost:5000";
 
 const API_ENDPOINTS = {
