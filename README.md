@@ -15,13 +15,11 @@
 ## 💡 **About Me**
 <div>
 
-🔹 **Software Engineer | Tech Enthusiast | Startup Founder**  
+🔹 **Software Engineer | Tech Enthusiast | Data Engineer**  
 🔹 Experienced in **Full-Stack Development, AI/ML, and Cloud Computing**  
-🔹 Founder of **TechieAI & Jivan Khata** 🚀  
-🔹 Love solving **Data Structures & Algorithms (DSA)** problems  
 🔹 Passionate about **Hackathons, Open-Source & DevOps**  
 🔹 **Fun Fact:** *"The best part of the journey is... it ends."*  
-🔹 **Hobbies:** Dungeons & Dragons 🎲 | Watching movies 🍿 | Writing a Light Novel 📖  
+🔹 **Hobbies:** Dungeons & Dragons 🎲 | Watching movies 🍿  
 
 </div>
 
@@ -29,17 +27,7 @@
 
 ## 📜 **Achievements & Certifications**
 🎖 **2nd Place** - Code Red 4.0 Hackathon (AI for Societal Good)  
-🎖 **Built Full-Stack Apps in 3-4 Days** (Solo development speed)  
-🎖 **Red Hat Linux Expert** (Self-taught, equivalent to certified engineer)  
 🎖 **Multiple Hackathon Finalist** & Open-Source Contributor  
-
----
-
-## 🔥 **What I'm Currently Learning**
-- 🐳 **Docker & Kubernetes** (Containerization & Orchestration)  
-- 📜 **Terraform** (Infrastructure as Code)  
-- 🤖 **Advanced AI/ML** (Fine-tuning models & real-world applications)  
-- ⚡ **Scaling Startups** (Tech & business strategies)  
 
 ---
 
@@ -47,7 +35,7 @@
 💡 Full-Stack Development (React, Express, MongoDB, Flask)  
 💡 AI/ML (TensorFlow, LLMs, Computer Vision)  
 💡 Cloud & DevOps (AWS, Docker, Terraform, Kubernetes)  
-💡 Building Startups & Hackathon Strategies  
+💡 Hackathon Strategies  
 
 ---
 
